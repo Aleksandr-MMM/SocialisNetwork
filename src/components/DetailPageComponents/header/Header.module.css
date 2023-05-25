@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerName {
+    display: flex;
+    align-items: center;
+    -webkit-animation: pulsate 3s linear infinite;
+    animation: pulsate 3s linear infinite;
+}
+@-webkit-keyframes pulsate {
+    50% { color: #171f1a; text-shadow:  0 0 5px #ffd; }
+}
+@keyframes pulsate {
+    50% { color: #171f1a; text-shadow:  0 0 5px #ffd; }
+}

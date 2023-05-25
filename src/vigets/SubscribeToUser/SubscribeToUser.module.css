@@ -1,0 +1,23 @@
+@value colors: "../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+@import url('/src/UiStyle/positionStyle/wrapperUserComponent/wrapperUsersComponent.css');
+
+.users{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightTheme_wrapper_widget;
+    margin: 10px;
+}
+.link{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.status{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+

@@ -1,0 +1,12 @@
+.widgetEl{
+    height: 18px;
+    width: 18px;
+}
+.widgetEl:hover:before{
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -40px;
+    content: attr(data-name);
+    color: black;
+    background: rgba(0,13,156,.15);
+}

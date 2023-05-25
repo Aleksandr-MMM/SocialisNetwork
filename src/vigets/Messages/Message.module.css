@@ -1,0 +1,38 @@
+@value colors: "../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+@value lightTheme_wrapper_widget_layer2 from colors;
+@value user_message_wrapper_color from colors;
+@value user_message_text_color from colors;
+@value user_message_date_color from colors;
+
+.wrapper{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightTheme_wrapper_widget;
+    border-radius: 10px;
+}
+
+.readMessage{
+    background-color: lightTheme_wrapper_widget_layer2;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+.yourMessage{
+   text-align: right;
+}
+.message{
+    color: user_message_text_color;
+    font-size: 22px;
+}
+.date{
+    color: user_message_date_color;
+}
+.items{
+   padding: 6px;
+}
+.widget{
+    display: inline-block;
+    margin: 5px;
+
+}

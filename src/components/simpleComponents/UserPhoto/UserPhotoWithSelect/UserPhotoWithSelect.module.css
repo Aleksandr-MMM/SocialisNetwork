@@ -1,0 +1,22 @@
+@value colors: "../../../../UiStyle/Color/Color.css";
+@value lightTheme_helpers_wrapper from colors;
+@value lightTheme_helpers_text from colors;
+
+
+.wrapper:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.wrapper:hover:after {
+    content: attr(data-name);
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+    background: lightTheme_helpers_wrapper;
+    color: lightTheme_helpers_text;
+    font-family: cursive;
+    font-size: 14px;
+
+}
+

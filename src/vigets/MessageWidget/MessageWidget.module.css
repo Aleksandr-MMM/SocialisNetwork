@@ -1,0 +1,9 @@
+@value colors: "../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+
+.wrapper{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightTheme_wrapper_widget;
+    border-radius: 10px;
+}

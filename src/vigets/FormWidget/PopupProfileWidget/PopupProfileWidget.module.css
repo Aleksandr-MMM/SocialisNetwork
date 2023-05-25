@@ -1,0 +1,34 @@
+@value colors: "../../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+@value lightTheme_links_text from colors;
+@value lightTheme_links_text_helpers from colors;
+@value lightTheme_helpers_wrapper from colors;
+@value lightTheme_helpers_text from colors;
+.popup {
+    background-color: lightTheme_wrapper_widget;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 400px;
+    min-height: 400px;
+}
+
+.contacts {
+    color: lightTheme_links_text;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.contacts:hover {
+    color: lightTheme_links_text_helpers;
+}
+.contacts:hover:after {
+    content: attr(data-name);
+    z-index: 1;
+    margin-top: -30px;
+    margin-left: 30px;
+    position: absolute;
+    background: lightTheme_helpers_wrapper;
+    color: lightTheme_helpers_text;
+    font-family: cursive;
+    font-size: 14px;
+}

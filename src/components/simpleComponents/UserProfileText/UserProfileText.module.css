@@ -1,0 +1,9 @@
+@value colors: "../../../UiStyle/Color/Color.css";
+@value lightTheme_text from colors;
+.items {
+    margin-top: 10px;
+    color: lightTheme_text;
+}
+
+
+

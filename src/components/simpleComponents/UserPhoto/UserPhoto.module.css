@@ -1,0 +1,25 @@
+.photo{
+    max-height: 200px ;
+    min-height: 200px ;
+    border-radius: 100px;
+}
+.wrapper{
+    position: relative;
+    display: inline-block;
+}
+/*.wrapper:hover{
+   opacity: 0.6;
+}
+.wrapper:hover:after {
+    content: attr(data-name);
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+    background: lightTheme_helpers_wrapper;
+    color: lightTheme_helpers_text;
+    font-family: cursive;
+    font-size: 14px;
+    cursor: pointer;
+}*/
+

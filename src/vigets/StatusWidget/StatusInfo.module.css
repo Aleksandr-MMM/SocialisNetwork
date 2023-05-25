@@ -1,0 +1,25 @@
+.myStatus{
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.statusAnotherUser{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.myStatus:hover{
+    color: #98978a;
+}
+
+.myStatus:hover:after {
+   content: attr(data-name);
+   z-index: 1;
+   margin-top: -15px;
+   margin-left: 20px;
+   position: absolute;
+   background: rgba(0,13,156,.15);
+   color: #fff;
+   font-family: cursive;
+   font-size: 14px;
+
+}

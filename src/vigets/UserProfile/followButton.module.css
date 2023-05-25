@@ -1,0 +1,17 @@
+@value indent10px 10px;
+@value colors: "../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+@value lightTheme_wrapper_button from colors;
+
+.wrapperProfileInfo{
+    margin-top: indent10px;
+    background-color: lightTheme_wrapper_widget;
+    border-radius: indent10px;
+    display: inline-block;
+
+}
+.linkToMessagePage{
+    text-decoration: none
+}
+
+

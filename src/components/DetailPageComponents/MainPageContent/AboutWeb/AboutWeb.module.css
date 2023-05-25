@@ -1,0 +1,52 @@
+.wrapper{
+   background-color: rgba(100,100,100,0.5);
+}
+.ul{
+   padding-left: 20px;
+}
+.liItems{
+   color: orange;
+   margin-right: 0;
+}
+.pText{
+   color: white;
+   text-shadow:  0 0 1px black;
+}
+.linkYoutube{
+   display: inline;
+}
+.linkItems{
+   color: orange;
+   text-decoration: none;
+}
+.copyText{
+   margin-top: 10px;
+   font-weight: bold;
+   cursor: pointer;
+   color: rgb(139,189,255);
+}
+.copyText:hover{
+   color: #ee7e36;
+}
+
+.copyText:hover:after {
+   content: attr(data-name);
+   z-index: 1;
+   margin-top: -15px;
+   margin-left: 20px;
+   position: absolute;
+   background: rgba(0,13,156,.5);
+   color: #fff;
+   font-family: cursive;
+   font-size: 14px;
+}
+.copySuccess{
+   position: absolute;
+   background-color: #98978a;
+   margin-bottom: -200px;
+   margin-left: 100px;
+}
+.redirectToRegistration{
+   color: orange;
+   text-decoration: none;
+}

@@ -1,0 +1,29 @@
+@value colors: "../../../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_button from colors;
+
+.linkWrapper{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: lightTheme_wrapper_button;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    cursor:pointer;
+    border: none;
+}
+.linkWrapper:hover{
+    background-color: #98978a;
+}
+.link{
+    cursor:pointer;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: none;
+    border: none;
+}
+.link:hover{
+    color: black;
+}

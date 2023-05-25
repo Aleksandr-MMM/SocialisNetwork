@@ -1,0 +1,32 @@
+@value colors: "../../../../UiStyle/Color/Color.css";
+@value lightTheme_wrapper_widget from colors;
+
+.header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.itemsWrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    background-color: lightTheme_wrapper_widget;
+    border-radius: 10px;
+}
+
+.selectFormStyle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.saveChangeBtnStyle{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.testForm{
+    width: 100%;
+}
+.selectItems{
+    margin-right: 150px;
+}
