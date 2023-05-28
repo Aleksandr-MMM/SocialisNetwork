@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SocialisNetwork/static/css/main.9b35a2fb.css",
-    "main.js": "/SocialisNetwork/static/js/main.b884b2fb.js",
+    "main.js": "/SocialisNetwork/static/js/main.46eeac95.js",
     "static/js/787.c3d5ba8a.chunk.js": "/SocialisNetwork/static/js/787.c3d5ba8a.chunk.js",
     "static/media/Megapolis.jpg": "/SocialisNetwork/static/media/Megapolis.8d2d17fba6608f71a13e.jpg",
     "static/media/town1.svg": "/SocialisNetwork/static/media/town1.7404f6ba6d894f1dafcddd38b50f2f02.svg",
@@ -13,11 +13,11 @@
     "static/media/closeIcon.svg": "/SocialisNetwork/static/media/closeIcon.f133bdcc8cba10fe29fdea871c0db258.svg",
     "static/media/sendMessage.svg": "/SocialisNetwork/static/media/sendMessage.ebdd7591fab48e8deeedecdbda6b332e.svg",
     "main.9b35a2fb.css.map": "/SocialisNetwork/static/css/main.9b35a2fb.css.map",
-    "main.b884b2fb.js.map": "/SocialisNetwork/static/js/main.b884b2fb.js.map",
+    "main.46eeac95.js.map": "/SocialisNetwork/static/js/main.46eeac95.js.map",
     "787.c3d5ba8a.chunk.js.map": "/SocialisNetwork/static/js/787.c3d5ba8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b35a2fb.css",
-    "static/js/main.b884b2fb.js"
+    "static/js/main.46eeac95.js"
   ]
 }
