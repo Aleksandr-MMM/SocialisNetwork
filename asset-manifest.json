@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SocialisNetwork/static/css/main.9b35a2fb.css",
+    "main.js": "/SocialisNetwork/static/js/main.1cd8b364.js",
+    "static/js/787.c3d5ba8a.chunk.js": "/SocialisNetwork/static/js/787.c3d5ba8a.chunk.js",
+    "static/media/Megapolis.jpg": "/SocialisNetwork/static/media/Megapolis.8d2d17fba6608f71a13e.jpg",
+    "static/media/town1.svg": "/SocialisNetwork/static/media/town1.7404f6ba6d894f1dafcddd38b50f2f02.svg",
+    "static/media/preloader.svg": "/SocialisNetwork/static/media/preloader.e8f95ee02921245094d9d58ab0506696.svg",
+    "static/media/userlogo.svg": "/SocialisNetwork/static/media/userlogo.29dd5921549f25c017d3a512eb24fe23.svg",
+    "static/media/LoadingPreloaderV2.svg": "/SocialisNetwork/static/media/LoadingPreloaderV2.a5259e75b57a14b876126681526f9839.svg",
+    "static/media/spamIcon.svg": "/SocialisNetwork/static/media/spamIcon.3d2f250f816a6a4e48fff79e1efc55cd.svg",
+    "index.html": "/SocialisNetwork/index.html",
+    "static/media/closeIcon.svg": "/SocialisNetwork/static/media/closeIcon.f133bdcc8cba10fe29fdea871c0db258.svg",
+    "static/media/sendMessage.svg": "/SocialisNetwork/static/media/sendMessage.ebdd7591fab48e8deeedecdbda6b332e.svg",
+    "main.9b35a2fb.css.map": "/SocialisNetwork/static/css/main.9b35a2fb.css.map",
+    "main.1cd8b364.js.map": "/SocialisNetwork/static/js/main.1cd8b364.js.map",
+    "787.c3d5ba8a.chunk.js.map": "/SocialisNetwork/static/js/787.c3d5ba8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b35a2fb.css",
+    "static/js/main.1cd8b364.js"
+  ]
+}
